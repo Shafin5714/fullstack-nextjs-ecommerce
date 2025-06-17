@@ -18,7 +18,6 @@ const SignUpForm = () => {
 
   const searchParams = useSearchParams();
   const callbackUrl = searchParams.get("callbackUrl") || "/";
-  console.log(callbackUrl);
 
   const SignUpButton = () => {
     const { pending } = useFormStatus();

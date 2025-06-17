@@ -11,7 +11,7 @@ const Loading = () => {
         justifyContent: "center",
         alignContent: "center",
         height: "100vh",
-        width: "100vh",
+        width: "100vw",
       }}
     >
       <Image src={loader} height={150} width={150} alt="loading" />
